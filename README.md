@@ -9,6 +9,6 @@
 #### Instalation
 * Fork a project to Your repository
 * Clone Your project to Your local machine
-* Open with You favourite IDE and start index.html
+* Open with Your favourite IDE and start index.html
 
 [Official vaccinations in Poland](https://www.gov.pl/web/szczepimysie)
