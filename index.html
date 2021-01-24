@@ -46,6 +46,9 @@
               <a class="nav-link" href="#clients">KLIENCI</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#form">ZAPISY</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">KONTAKT</a>
             </li>
           </ul>
@@ -138,22 +141,22 @@
     <div id="clients">
 		<div class="jumbotron">
 			<div class="col-12 heading text-center">
-				<h3>Co myślą klienci:</h3>
+				<h3>Opinie ekspertów:</h3>
 			</div>
 
 			<div class="row text-center">
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="client" src="img/client1.png">
+							<img class="client" src="img/Med1.jpg">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="blockquote text-center">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus eaque excepturi facilis, natus animi commodi, ipsum, eveniet mollitia explicabo magnam earum nulla non temporibus.</p>
+								<p>Organy kontrolne, które nadzorują wprowadzanie na rynek szczepionek i leków zapewniają, że ​​wszystkie szczepionki są tak bezpieczne, jak to tylko możliwe. Amerykańska FDA i Europejska Agencja Leków (EMA) współpracują z producentami jeszcze podczas procesu opracowywania, a później autoryzacji szczepionki.</p>
 							</blockquote>
 							<hr class="line">
 							<footer class="blockquote-footer">
-								<cite>Aleksander z Warszawy</cite>
+								<cite>dr Jan Kowalski</cite>
 							</footer>
 						</div>
 					</div>
@@ -161,15 +164,15 @@
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-lg-4">
-							<img class="client" src="img/client2.png">
+							<img class="client" src="img/Med2.jpg">
 						</div>
 						<div class="col-lg-8">
 							<blockquote class="blockquote text-center">
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatibus eaque excepturi facilis, natus animi commodi, ipsum, eveniet mollitia explicabo magnam earum nulla non temporibus.</p>
+								<p>Każdy, kto został zakażony wirusem, może i powinien się zaszczepić. Jest to zalecane, ponieważ nie ma pewności, czy przejście infekcji zapewnia wystarczającą ochronę przed ponownym zarażeniem. Zdarzały się (choć rzadko) przypadki ponownego zarażenia.</p>
 							</blockquote>
 							<hr class="line">
 							<footer class="blockquote-footer">
-								<cite>Malwina z Warszawy</cite>
+								<cite>dr Kot</cite>
 							</footer>
 						</div>
 					</div>
@@ -177,7 +180,60 @@
 			</div>
 		</div>
 	</div>
-    <!-- End section clients -->
+	<!-- End section clients -->
+	
+	<!-- start section form -->
+	<div id="form">
+		<div class="col-12 text-center">
+			<h3 class="heading">Wypełnij dane i wyraź chęć otrzymania szczepionki</h3>
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label for="firstname">Imię</label>
+						<input type="text" class="form-control" id="firstname" placeholder="np. Jan">
+					</div>
+					<div class="form-group col-md-6">
+						<label for="lastname">Nazwisko</label>
+						<input type="text" class="form-control" id="lastname" placeholder="np. Kowalski">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-4">
+						<label for="street">Ulica</label>
+						<input type="text" class="form-control" id="street" placeholder="np. Marszałkowska 10">
+					</div>
+					<div class="form-group col-md-2">
+						<label for="homeNumber">Numer domu</label>
+						<input type="text" class="form-control" id="homeNumber" placeholder="np. 23">
+					</div>
+					<div class="form-group col-md-2">
+						<label for="postcode">Kod pocztowy</label>
+						<input type="text" class="form-control" id="postcode" placeholder="np. 03-140">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="city">Miasto</label>
+						<input type="text" class="form-control" id="city" placeholder="np. Warszawa">
+					</div>
+				</div>
+				<div class="form-row">
+					<div class="form-group col-md-5">
+						<label for="pesel">Numer pesel</label>
+						<input type="number" class="form-control" id="pesel" placeholder="np. 87121212121212">
+					</div>
+					<div class="form-group col-md-4">
+						<label for="email">Adres email</label>
+						<input type="text" class="form-control" id="email" placeholder="np. kowalski.jan@gmail.com">
+					</div>
+					<div class="form-group col-md-3">
+						<label for="phoneNumber">Numer telefonu</label>
+						<input type="number" class="form-control" id="phoneNumber" placeholder="np. 555 444 333">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-submit btn-secondary">Wyślij</button>
+			</form>
+		</div>
+	</div>
+	<!-- end section form -->
 
     <!-- Start section contact -->
     <div id="contact">
