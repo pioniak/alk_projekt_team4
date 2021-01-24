@@ -1,10 +1,19 @@
 # Anty Covid page
+![Cov logo](https://marmonelectrical.com/wp-content/uploads/2020/05/covidCell.jpg)
 
 ### alk_projekt_team4
 * Katarzyna Depczynska
 * Anna Dymkowska
 * Piotr Golebniak
 * Tomasz Grzonkowski
+
+#### Technologies
+* HTML
+* CSS
+* Bootstrap v4.1.3
+* JQueryv 3.3.1
+
+Used icons: font awsome v5.15.2
 
 #### Instalation
 * Fork a project to Your repository
