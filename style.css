@@ -62,6 +62,7 @@ body{
 /* Course */
 #course{
   background-color: lightgrey;
+  padding: 2rem;
 }
 
 /* Features */
